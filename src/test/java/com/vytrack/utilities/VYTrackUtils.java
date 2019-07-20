@@ -40,6 +40,8 @@ import org.openqa.selenium.WebDriver;
          * @param tab
          * @param module
          */
+
+
         public static void navigateToModule(WebDriver driver, String tab, String module){
             String tabLocator = "//span[contains(text(),'"+tab+"') and contains(@class, 'title title-level-1')]";
             String moduleLocator = "//span[contains(text(),'"+module+"') and contains(@class, 'title title-level-2')]";

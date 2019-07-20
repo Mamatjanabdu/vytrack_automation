@@ -21,7 +21,7 @@ public class MenuOptionsDriver {
 
 
     WebDriver driver;
-String FleetTabLocator="//span[contains( text(),'Flee') and @class='title title-level-1'])";
+String FleetTabLocator="//span[contains( text(),'Flee') and @class='title title-level-1']";
 String VehicleModuleLocator="//span[text()='Vehicles'])";
 //String CarPageNameLocator="//h1[@class='oro-subtitle']";
 
